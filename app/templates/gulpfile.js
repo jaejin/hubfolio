@@ -1,6 +1,6 @@
 var gulp = require('gulp');
-var github = require('./core/github');
-var skvalley = require('./core/skvalley');
+var github = require('../repos/github');
+var skvalley = require('../repos/teamforge');
 
 gulp.task('default', function() {
   // place code for your default task here
